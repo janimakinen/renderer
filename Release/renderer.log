@@ -1,0 +1,7 @@
+﻿  main.cpp
+main.cpp(161): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+main.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+main.cpp(164): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+  Generating code
+  Finished generating code
+  renderer.vcxproj -> e:\janipersonal\renderer\renderer\Release\renderer.exe
