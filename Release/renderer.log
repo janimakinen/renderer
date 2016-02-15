@@ -1,7 +1,19 @@
-﻿  main.cpp
-main.cpp(161): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-main.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-main.cpp(164): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-  Generating code
-  Finished generating code
-  renderer.vcxproj -> e:\janipersonal\renderer\renderer\Release\renderer.exe
+﻿Build started 15.2.2016 19.34.57.
+     1>Project "C:\github\renderer\cloneofrenderer\renderer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(162): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>main.cpp(164): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>main.cpp(165): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\github\renderer\cloneofrenderer\Release\renderer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\github\renderer\cloneofrenderer\Release\renderer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\github\renderer\cloneofrenderer\Release\renderer.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         renderer.vcxproj -> C:\github\renderer\cloneofrenderer\Release\renderer.exe
+     1>Done Building Project "C:\github\renderer\cloneofrenderer\renderer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91
